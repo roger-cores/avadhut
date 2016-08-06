@@ -1,0 +1,132 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">ExtraClass</string>
+    <string name="action_settings">Settings</string>
+    <string name="smallTitle">Sandeep Chavan\'s</string>
+    <string name="title">ExtraCLASS</string>
+    <string name="subtitle">GET READY FOR CETs</string>
+    <string name="start">Start</string>
+    <string name="title_activity_activate">Registration</string>
+    <string name="ask_register_msg">Please input your product key</string>
+    <string name="activate">Activate</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_home">Home</string>
+    <string name="signup"><u>Sign Up for ExtraClass</u></string>
+
+    //reg page
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register_now">Register Now!</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email ID</string>
+    <string name="register">Register</string>
+    <string name="active_acc">Your account is \n now ACTIVE!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mcq">McqActivity</string>
+
+
+    <string name="title_crossfade">Simple Crossfade</string>
+    <string name="title_card_flip">Card Flip</string>
+    <string name="title_screen_slide">Screen Slide</string>
+    <string name="title_zoom">Zoom</string>
+    <string name="title_layout_changes">Layout Changes</string>
+    <string name="title_template_step">Q<xliff:g id="step_number">%1$d</xliff:g> : </string>
+
+    <!-- Actions -->
+    <string name="action_toggle">Toggle indicator</string>
+    <string name="action_add_item">Add item</string>
+    <string name="action_remove_item">Remove item</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+    <string name="action_info">Photo info</string>
+    <string name="action_photo">View photo</string>
+
+    <!-- Messages -->
+    <string name="message_empty_layout_changes">Add an item above to get started.</string>
+    <string name="message_zoom_touch_expand">Touch a photo to expand it.</string>
+
+    <!-- Accessibility-only descriptions -->
+    <string name="description_image_1">Image 1</string>
+    <string name="description_image_2">Image 2</string>
+    <string name="description_zoom_touch_close">Expanded image (touch to close)</string>
+
+    <!-- Other strings -->
+    <string name="card_back_title">Angry Red Android</string>
+    <string name="card_back_description"><![CDATA[Lorem ipsum dolor sit]]></string>
+    <string name="lorem_ipsum"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et magna ut erat elementum cursus in quis ipsum. Nam faucibus ultrices eros, vel tempor leo semper sit amet. Duis magna quam, congue vitae interdum nec, condimentum ut lectus. Sed commodo venenatis eros a dignissim. Nunc adipiscing turpis nec magna venenatis at ultricies ipsum bibendum. Sed volutpat urna quis nisi vulputate egestas. Etiam eu dui a enim lacinia dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\nPhasellus orci mi, eleifend nec congue id, volutpat at neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer semper velit vel leo rutrum sed fermentum elit porta.]]></string>
+
+    <string name="cell"><![CDATA[Define Cell]]></string>
+    <string name="cellans"><![CDATA[It is a fundamental, structural and functional unit of an organism.]]></string>
+
+    <string name="cellular_pool"><![CDATA[Define Cellular Pool]]></string>
+    <string name="cellular_poolans"><![CDATA[The collection of various types of molecules in a cell is known as cellular pool.]]></string>
+
+    <string name="short_note_cellular_pool"><![CDATA[Write a short note on cellular pool.]]></string>
+    <string name="short_note_cellular_poolans"><![CDATA[i. There are different types of materials present in the cell which make it possible to carry on
+all metabolic activities. This collection of various types of molecules in a cell is known as cellular
+pool.
+\n\n
+ii. It consists of inorganic material and organic compounds.
+\n\n
+iii. Inorganic material includes water, salts and mineral ions; while organic compounds are carbohydrates, proteins, lipids, nucleic acids, etc.
+\n\n
+iv. All the molecules in a cellular pool help in metabolic activities of the cell.]]></string>
+
+    <string name="metabolism"><![CDATA[Define metabolism. Explain the parts of metabolism .]]></string>
+    <string name="metabolismans"><![CDATA[i. Metabolism means various reactions that occur at cellular level in every living organism.
+\n\n
+ii. Metabolism consists of two parts, i.e. catabolism and anabolism.
+\n\n
+iii. In anabolism, new cellular materials are synthesized.
+\n\n
+iv. In catabolism, complex storage products are hydrolyzed and simpler, smaller products are
+formed.
+\n\n
+v. Both anabolic and catabolic reactions require enzymes.]]></string>
+
+    <string name="macromol"><![CDATA[What are macromolecules? Give examples.]]></string>
+    <string name="macromolans"><![CDATA[i. Macromolecules are large sized compounds with high molecular weight but poorly soluble in
+water.
+\n\n
+ii. Examples: Proteins, polysaccharides, nucleic acids, etc.]]></string>
+    <string name="spinner_title">Select number of mcqs</string>
+    <string name="numberofquestions">Please select number of questions:</string>
+    <string name="proceed">PROCEED</string>
+    <string name="difficultyofquestions">Please select difficulty of questions</string>
+    <string name="title_activity_result">Result</string>
+    <string name="title_activity_about">About</string>
+    <string name="share_using" />
+
+
+    <!-- urls -->
+    <string name="base_url_extraclass">http://learninglinkscet.com/extraclass/</string>
+    <string name="base_url_firebase">https://extraclass.firebaseio.com</string>
+    <string name="title_activity_share_data">Share Data</string>
+
+
+    <string name="enable_p2p_button">P2P On/Off</string>
+    <string name="discover_peers_button">Discover</string>
+    <string name="connect_peer_button">Connect</string>
+    <string name="disconnect_peer_button">Disconnect</string>
+    <string name="get_file_button">Send File </string>
+    <string name="empty"></string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="client_text">This device will act as a client. Click on Gallery button to pick a local(stored) file</string>
+    <string name="empty_message">No devices found. Turn on P2P and perform discovery from the Action Bar</string>
+    <string name="p2p_off_warning">Enable P2P from action bar button above or system settings</string>
+    <string name="group_owner_text">"Am I the Group Owner? "</string>
+    <string name="label_me">ME</string>
+    <string name="label_peers">PEERS (Select a device to send to or wait to receive request)</string>
+    <string name="report_ip">Report IP</string>
+
+</resources>
