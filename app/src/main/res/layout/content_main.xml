@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.frostox.calculo.activities.MainActivity"
+    tools:context="com.frostox.calculoII.activities.MainActivity"
     tools:showIn="@layout/activity_main"
     android:background="#d35400">
 
@@ -16,8 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scaleType="fitCenter"
-        android:adjustViewBounds="true"
-        android:src="@drawable/student" />
+        android:adjustViewBounds="true" />
 
 
     <TextView
@@ -32,10 +31,11 @@
         android:layout_marginTop="10dp"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/title"
+        android:gravity="center"
         android:textSize="30sp"
         android:id="@+id/textView2"
         android:layout_below="@+id/textView"

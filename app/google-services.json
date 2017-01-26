@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1091289016534",
+    "firebase_url": "https://extraclass-ii.firebaseio.com",
+    "project_id": "extraclass-ii",
+    "storage_bucket": "extraclass-ii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091289016534:android:785fd28290ecb7fa",
+        "android_client_info": {
+          "package_name": "com.frostox.calculoII"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091289016534-u4jesnorndjeuai10rugtadlg4qksps7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9A5nmQy-iJQAISdY19hoykoeMysXFOiE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

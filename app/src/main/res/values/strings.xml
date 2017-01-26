@@ -1,16 +1,16 @@
 <resources xmlns:xliff="http://schemas.android.com/tools">
-    <string name="app_name">ExtraClass</string>
+    <string name="app_name">AVADHUT: for Medical CETs</string>
     <string name="action_settings">Settings</string>
     <string name="smallTitle">Sandeep Chavan\'s</string>
-    <string name="title">ExtraCLASS</string>
-    <string name="subtitle">GET READY FOR CETs</string>
+    <string name="title">AVADHUT</string>
+    <string name="subtitle">for Medical CETs</string>
     <string name="start">Start</string>
     <string name="title_activity_activate">Registration</string>
     <string name="ask_register_msg">Please input your product key</string>
     <string name="activate">Activate</string>
     <string name="title_activity_registration">Registration</string>
     <string name="title_activity_home">Home</string>
-    <string name="signup"><u>Sign Up for ExtraClass</u></string>
+    <string name="signup"><u>Sign Up for ADVHUT: for Medical CETs</u></string>
 
     //reg page
     <string name="username">Username</string>
@@ -108,8 +108,8 @@ ii. Examples: Proteins, polysaccharides, nucleic acids, etc.]]></string>
 
 
     <!-- urls -->
-    <string name="base_url_extraclass">http://learninglinkscet.com/extraclass/</string>
-    <string name="base_url_firebase">https://extraclass.firebaseio.com</string>
+    <string name="base_url_extraclass">http://learninglinkscet.com/extraclass2/</string>
+    <string name="base_url_firebase">https://extraclass-ii.firebaseio.com</string>
     <string name="title_activity_share_data">Share Data</string>
 
 
@@ -128,5 +128,30 @@ ii. Examples: Proteins, polysaccharides, nucleic acids, etc.]]></string>
     <string name="label_me">ME</string>
     <string name="label_peers">PEERS (Select a device to send to or wait to receive request)</string>
     <string name="report_ip">Report IP</string>
+    <string name="about_advhut">
+
+This app contains Notes, MCQs and mainly video lectures for students preparing for Medical CETs like NEET, MHT CET etc.\n\n
+By using exam tool in this app one can generate tests on selected topics and solve them independently
+anywhere, anytime on his/her mobile phone. This app will work in offline mode so user need not worry
+about connectivity.\n\n
+By watching video lectures and animations in this app user will easily understand the concern topic.
+This is the only app of its kind and developed by LearningLinks for students of rural and town areas.
+
+    </string>
+    <string name="about_l2">
+
+LearningLinks is a Leading Coaching Center in Maharashtra which is engaged in providing quality education to science students particularly from rural areas of Ahmednagar district.\n\n
+LearningLinks provides coaching for PCMB and post 12 th Medical and Engineering CETs like NEET/MHT/JEE etc.\n\n
+Besides regular coaching activities LearningLinks also provides Mobile Learning Software to students and coaching institutes.\n\n
+It’s a ISO 9001:2015 certified state of art Learning facility founded by Prof. Sandeep Chavan.
+
+    </string>
+    <string name="about_sc">
+
+Prof. Sandeep Chavan: Director, Founder and Educator at LearningLinks.\n\n\n
+He is a Mechanical Engineering Graduate from Pune University. He is well experienced engineer as well as proved himself as a successful educator while working in rural areas like Newasa.\n\n
+Mr. Chavan has taught more than 25 subjects of Science and Engineering and also developed several mobile learning applications for students.
+
+    </string>
 
 </resources>

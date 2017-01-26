@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         <fragment
-            class="com.frostox.calculo.pulled_sourses.wifidirect.DeviceListFragment"
+            class="com.frostox.calculoII.pulled_sourses.wifidirect.DeviceListFragment"
             android:id="@+id/frag_list"
             android:layout_width="match_parent"
             android:layout_height="@dimen/phone_list_height">
@@ -19,7 +19,7 @@
         </fragment>
 
         <fragment
-            class="com.frostox.calculo.pulled_sourses.wifidirect.DeviceDetailFragment"
+            class="com.frostox.calculoII.pulled_sourses.wifidirect.DeviceDetailFragment"
             android:id="@+id/frag_detail"
             android:layout_width="match_parent"
             android:layout_height="match_parent">

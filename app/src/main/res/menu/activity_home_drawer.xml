@@ -12,6 +12,12 @@
             android:title="Notes" />
 
         <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/ic_local_movies_black_24dp"
+            android:title="Videos"
+                />
+
+        <item
             android:id="@+id/results"
             android:icon="@drawable/ic_notes"
             android:title="Results" />

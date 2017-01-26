@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="7dp"
+    android:layout_margin="7dp"
     android:background="@color/colorPrimaryDark"
     android:orientation="vertical">
     <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
@@ -10,14 +10,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="5dp"
-        android:elevation="3dp"
+        android:layout_margin="1dp"
+        android:elevation="10dp"
         card_view:cardBackgroundColor="@color/color_white"
         card_view:cardCornerRadius="4dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="15dp"
             android:orientation="vertical">
 
             <RelativeLayout
@@ -47,7 +48,7 @@
 
                 <TextView
                     android:id="@+id/question"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@+id/questionnumber"
                     android:paddingLeft="6dp"
@@ -55,27 +56,83 @@
                     android:text="The Question is"
                     android:textColor="@color/button"
                     android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/ct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_action_check_mark"/>
             </RelativeLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="end"
-                android:orientation="horizontal">
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/wallet_holo_blue_light"></LinearLayout>
 
-                <ImageView
-                    android:layout_width="15dp"
-                    android:id="@+id/ct"
-                    android:layout_gravity="center_vertical"
-                    android:layout_height="wrap_content"
-                    android:scaleType="fitCenter"
-                    android:adjustViewBounds="true"
-                    />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp">
+
+
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="6dp"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Your Answer: " />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/youransimg"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:layout_centerVertical="true"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="6dp"
+                        android:background="@color/color_white"
+                        android:layout_alignParentRight="true"
+                        />
+
+                    <TextView
+                        android:id="@+id/yourans"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingBottom="6dp"
+                        android:paddingTop="6dp"
+                        android:text="your answer"
+                        android:textColor="@color/button"
+                        android:textSize="15sp"
+                        android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:layout_gravity="center_vertical"
                     android:text="Answer: " />
 
@@ -92,6 +149,7 @@
                         android:adjustViewBounds="true"
                         android:layout_margin="6dp"
                         android:background="@color/color_white"
+                        android:layout_alignParentRight="true"
                         />
 
                     <TextView
@@ -103,7 +161,55 @@
                         android:paddingTop="6dp"
                         android:text="answer"
                         android:textColor="@color/button"
-                        android:textSize="15sp" />
+                        android:textSize="15sp"
+                        android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Explanation: " />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/hintimg"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:layout_centerVertical="true"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="6dp"
+                        android:background="@color/color_white"
+                        android:layout_alignParentRight="true"
+                        />
+
+                    <TextView
+                        android:id="@+id/hint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingBottom="6dp"
+                        android:paddingTop="6dp"
+                        android:text="explanation"
+                        android:textColor="@color/button"
+                        android:textSize="15sp"
+                        android:layout_alignParentRight="true"/>
                 </RelativeLayout>
             </LinearLayout>
 

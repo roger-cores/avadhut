@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="9dp"
-    tools:context="com.frostox.calculo.fragments.EntityFragment1">
+    tools:context="com.frostox.calculoII.fragments.EntityFragment1">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/my_recycler_view"

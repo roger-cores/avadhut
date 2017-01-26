@@ -11,7 +11,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.frostox.calculo.activities.About"
+    tools:context="com.frostox.calculoII.activities.About"
     tools:showIn="@layout/activity_about">
 
     <RelativeLayout
@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="With advanced technology and changing life styles, the smart phone has become an integral part of our lives. Its playing equal role as that by food, cloth and shelter. Students are found doing stuff in and off campus on their mobile phones. LearningLinks initiated the concept of Mobile Learning by making smart mobile solutions for students. With these applications the students are able to study anywhere. They got entire data in their mobile in a disciplined and organized manner. \n\nThe ExtraCLASS is one of such useful app which will serve students for foundation, board and CET courses. Its sole intention is to help students who do self-study. It will help you to study anywhere, anytime."
+            android:text="@string/about_advhut"
             android:id="@+id/textView7"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="About ExtraCLASS"
+            android:text="About ADVHUT"
             android:id="@+id/textView8"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
@@ -60,9 +60,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="We are a quick growing educational company that is here for you and look forward to your careers. We started off small like most educational institutes do, but it didn&#39;t take us long to become a national level organization. We have great standings on all of our courses and products and we look forward to having your great careers as well."
+            android:text="@string/about_l2"
             android:id="@+id/textView10"
-            android:layout_marginTop="43dp"
+            android:layout_marginTop="20dp"
             android:layout_below="@+id/textView9"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
@@ -93,15 +93,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_below="@id/image"
             android:layout_marginTop="10dp"
-            android:text="
-        Mr. Sandeep Chavan is a Mechanical Engineering Graduate from University of Pune; He has more than 14 years’ experience in industrial environment as well as in educational field. He is working as an educator, mentor and tutor in his own formation i.e. LearningLinks. He has taught more than 23 subjects to students of Science and Engineering. He is the pioneer in mobile learning in rural and sub urban areas.
-        If you have any type of problem related to your studies, we will solve it. That is just what we do.
-        So even if you think it is something that is out of our league, give us a shout and I bet we prove you wrong. We can handle pretty much any type of problem that arises and look forward to the challenge! Bring it on!!
-        We offer a wide variety of services, you can check them out on the service page.
-        For a complete listing of our services just go ahead and skip on over to our services page. After all, that&#39;s what it&#39;s there for.
-
-        \n\nVisit us on \n
-        "
+            android:text="@string/about_sc"
             />
 
         <TextView

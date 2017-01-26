@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="calculo.frostox.com.calculo"
-    android:versionCode="3"
+    package="com.frostox.calculoII"
+    android:versionCode="4"
     android:versionName="1.02">
 
     <uses-sdk tools:overrideLibrary="com.firebase.ui" />
@@ -18,14 +18,14 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.frostox.calculo.activities.MyApplication"
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="ExtraCLASS"
+        android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.frostox.calculo.activities.MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -35,82 +35,88 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.frostox.calculo.activities.Activate"
+            android:name=".activities.Activate"
             android:label="@string/title_activity_activate"
             android:noHistory="true"
-            android:parentActivityName="com.frostox.calculo.activities.MainActivity"
+            android:parentActivityName=".activities.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.frostox.calculo.activities.MainActivity" />
+                android:value="com.frostox.calculoII.activities.MainActivity" />
         </activity>
         <activity
-            android:name="com.frostox.calculo.activities.Home"
+            android:name=".activities.Home"
             android:label="@string/title_activity_home"
-            android:parentActivityName="com.frostox.calculo.activities.MainActivity"
+            android:parentActivityName=".activities.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.frostox.calculo.activities.MainActivity" />
+                android:value="com.frostox.calculoII.activities.MainActivity" />
         </activity>
         <activity
-            android:name="com.frostox.calculo.activities.McqActivity"
+            android:name=".activities.McqActivity"
             android:label="@string/title_activity_mcq"
-            android:parentActivityName="com.frostox.calculo.activities.Home"
+            android:parentActivityName=".activities.Home"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.frostox.calculo.activities.Home" />
+                android:value="com.frostox.calculoII.activities.Home" />
         </activity>
         <activity
-            android:name="com.frostox.calculo.activities.ScreenSlideActivity"
+            android:name=".activities.ScreenSlideActivity"
             android:label="@string/title_screen_slide"
-            android:parentActivityName="com.frostox.calculo.activities.Home"
+            android:parentActivityName=".activities.Home"
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.frostox.calculo.activities.Home" />
+                android:value="com.frostox.calculoII.activities.Home" />
         </activity>
         <activity
-            android:name="com.frostox.calculo.activities.Login"
+            android:name=".activities.Login"
             android:noHistory="true"
-            android:parentActivityName="com.frostox.calculo.activities.MainActivity"
+            android:parentActivityName=".activities.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.frostox.calculo.activities.MainActivity" />
+                android:value="com.frostox.calculoII.activities.MainActivity" />
         </activity>
-        <activity android:name="com.frostox.calculo.activities.Register" />
-        <activity android:name="com.frostox.calculo.activities.NotesActivity" />
-        <activity android:name="com.frostox.calculo.activities.Splashscreen" />
+        <activity android:name=".activities.Register" />
+        <activity android:name=".activities.NotesActivity" />
+        <activity android:name=".activities.VideosActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.Splashscreen" />
         <activity
-            android:name="com.frostox.calculo.activities.Result"
+            android:name=".activities.Result"
             android:label="@string/title_activity_result"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <service android:name="com.frostox.calculo.services.FileSyncService" />
+        <service android:name=".services.FileSyncService" />
 
         <activity
-            android:name="com.frostox.calculo.activities.About"
+            android:name=".activities.About"
             android:label="@string/title_activity_about"
-            android:parentActivityName="com.frostox.calculo.activities.Home"
+            android:parentActivityName=".activities.Home"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.frostox.calculo.activities.Home" />
+                android:value="com.frostox.calculoII.activities.Home" />
         </activity>
         <activity
-            android:name="com.frostox.calculo.activities.ShareDataActivity"
+            android:name=".activities.ShareDataActivity"
             android:label="@string/title_activity_share_data"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.frostox.calculo.pulled_sourses.wifidirect.WiFiDirectActivity"
+            android:name=".pulled_sourses.wifidirect.WiFiDirectActivity"
             android:label="Share Data"
-            android:theme="@android:style/Theme.Holo.Light"></activity>
+            android:theme="@android:style/Theme.Holo.Light" />
 
         <service
-            android:name="com.frostox.calculo.pulled_sourses.wifidirect.AppNetService"
+            android:name=".pulled_sourses.wifidirect.AppNetService"
             android:enabled="true" />
+
+        <activity android:name=".activities.MCQResultActivity" />
+        <activity android:name=".activities.MenuActivity"></activity>
     </application>
 
 </manifest>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:id="@+id/colayout"
-    tools:context="com.frostox.calculo.activities.Home">
+    tools:context="com.frostox.calculoII.activities.Home">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -20,15 +20,7 @@
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/ic_arrow_back_white"
-                android:layout_marginRight="5dp"
-                android:id="@+id/backButton"
-                android:clickable="true"
-                android:layout_gravity="right"
-                />
+
 
         </android.support.v7.widget.Toolbar>
     </android.support.design.widget.AppBarLayout>

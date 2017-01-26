@@ -5,24 +5,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.frostox.calculo.activities.Home"
+    tools:context="com.frostox.calculoII.activities.Home"
     tools:showIn="@layout/app_bar_home">
+
+
+    <ImageView
+        android:id="@+id/content_home_back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:src="@drawable/jc_back"
+        android:paddingRight="20dp"
+        android:paddingLeft="10dp"
+        android:background="@color/nav_background"
+        android:layout_above="@+id/content_frame"
+        android:layout_alignParentTop="true" />
 
     <HorizontalScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fillViewport="true"
-        android:scrollbars="horizontal">
+        android:scrollbars="horizontal"
+
+        android:background="@color/nav_background"
+        android:layout_toRightOf="@id/content_home_back_button">
 
         <LinearLayout
             android:id="@+id/bread_crumb"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:background="@color/nav_background"
             android:orientation="horizontal"
             android:padding="5dp">
-
 
             <TextView
                 android:id="@+id/courses"
